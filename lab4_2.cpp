@@ -1,12 +1,13 @@
 #include<iostream>
-
 using namespace std;
 
-//Write function findDistance() here
+float findDistance(float u,float a,float t){
+  return (u*t)+(0.5*a*t*t);
+}
 
 int main(){
 
-  //Calling findDistance() using test cases
+  cout << "s = " << findDistance(5,4,3);
 
   return 0;
 }
